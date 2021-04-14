@@ -12,8 +12,9 @@ it("El quinto campo dice CCV", () => {
   document.getElementsByTagName("p")[4].should.have.trimmed.text("CCV");
 })
 
-
-
+it("Hay un botón que dice pagar", () => {
+  document.getElementsByTagName("button").should.have.trimmed.text("Nombre completo del titular");
+})
 
 
 /*#tests>*/
