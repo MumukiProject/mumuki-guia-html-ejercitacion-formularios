@@ -9,12 +9,14 @@ it("El cuarto option dice Shimano", () => {
 })
 
 it("El cuarto option dice Shimano", () => {
-  document.getElementById("marca").options[3].should.have.trimmed.text("Shimano");
+  document.getElementById("marca").options.length.should.eq(7);
 })
 
-it("El cuarto option dice Shimano", () => {
+it("MODIFICAR", () => {
   document.getElementById("primero").value.should.eq("Mountain Bike");
 })
+
+
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
