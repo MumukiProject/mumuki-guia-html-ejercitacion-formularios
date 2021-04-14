@@ -20,9 +20,16 @@ it("El quinto campo dice Contraseña", () => {
 })
 
 
-it("COMPLETAR", () => {
-  document.getElementById("nombre").type.should.eq("text");
+it("El campo Nombre es de tipo text", () => {
+  document.getElementById("Nombre").type.should.eq("text");
 })
-/*#tests>*/
+
+it("El campo DNI es de tipo number", () => {
+  document.getElementById("DNI").type.should.eq("number");
+})
+
+it("El campo Contraseña es de tipo password", () => {
+  document.getElementById("contraseña").type.should.eq("password");
+})/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
