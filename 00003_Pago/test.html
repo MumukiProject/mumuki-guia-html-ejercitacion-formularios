@@ -1,4 +1,12 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("El primer campo dice Número de tarjeta de crédito", () => {
+  document.getElementByTagName("p").options[0].should.have.trimmed.text("Número de tarjeta de crédito");
+})
+
+
+
+
+
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
