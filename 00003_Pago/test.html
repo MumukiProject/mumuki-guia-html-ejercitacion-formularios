@@ -8,12 +8,12 @@ it("El segundo campo dice Nombre completo del titular", () => {
 })
 
 
-it("El quinto campo dice CVV", () => {
-  document.getElementsByTagName("p")[4].should.have.trimmed.text("CVV");
+it("El quinto campo dice CCV", () => {
+  document.getElementsByTagName("p")[4].should.have.trimmed.text("CCV");
 })
 
 it("Existe un botón de pagar", () => {
-  document.querySelector("submit").should.exist;
+  document.querySelector("input type="submit" value="Pagar"").should.exist;
 })
 
 
