@@ -25,7 +25,7 @@ it("El campo CVV es de tipo password", () => {
 
 
 it("El input del año de vencimiento no es mayor a diez años del año actual", () => {
-  document.getElementById("añoDeVencimiento").max.should.eq("2031");
+  document.getElementById("añoDeVencimiento").min.should.eq("2021");
 })
 
 
