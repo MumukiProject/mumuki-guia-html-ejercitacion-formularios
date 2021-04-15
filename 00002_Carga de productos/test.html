@@ -12,8 +12,12 @@ it("El cuarto option dice Shimano", () => {
   document.getElementById("marca").options.length.should.eq(7);
 })
 
-it("MODIFICAR", () => {
+it("El primer elemento de la categoría del producto es Mountain Bike", () => {
   document.getElementById("primero").value.should.eq("Mountain Bike");
+})
+
+it("El tercer elemento de la categoría del producto es  Plegable", () => {
+  document.getElementById("tercero").value.should.eq("Plegable");
 })
 
 
