@@ -2,12 +2,13 @@
 
 Crearemos un formulario con los siguientes datos:
 
-- número de tarjeta de crédito;
-- nombre completo del titular;
-- mes de vencimiento;
-- input del año en números (no puede ser menor al año actual y no puede ser mayor a 10 años del año actual);
-- CCV (código de seguridad) que debe ser de tipo `password`;
-- Botón de pagar.
+- número de tarjeta de crédito con id `tarjeta`;
+- nombre completo del titular con id `titular`;
+- mes de vencimiento con id `mes`;
+- input del año en números (no puede ser menor al año actual y no puede ser mayor a 10 años del año actual) con id `año`;
+- CCV (código de seguridad) que debe ser de tipo `password` con id `ccv`;
+
+Y con un botón que diga _Pagar_.
 
 **No es necesario agregarles estilos**
 

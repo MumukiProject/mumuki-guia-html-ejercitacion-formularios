@@ -1,6 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("El primer campo dice Número de tarjeta de crédito", () => {
-  document.getElementsByTagName("p")[0].should.have.trimmed.text("Número de tarjeta de crédito");
+  document.getElementById("tarjeta").should.have.trimmed.text("Número de tarjeta de crédito");
 })
 
 it("El segundo campo dice Nombre completo del titular", () => {
@@ -19,11 +19,11 @@ it("El campo CVV es de tipo password", () => {
   document.getElementById("CCV").type.should.eq("password");
 })
 
-
+/*
 it("El input del año de vencimiento no es mayor a diez años del año actual", () => {
   document.getElementById("anio").max.should.eq("2031");
 })
-
+*/
 
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
