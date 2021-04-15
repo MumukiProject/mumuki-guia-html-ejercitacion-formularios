@@ -1,6 +1,4 @@
-Se requiere crear un formulario para el registro rápido para un portal web de un cliente, por lo que necesitaremos lo siguiente:
-
-Crear un formulario con los campos.
+Necesitamos crear un formulario para el registro rápido del portal web de un cliente, el mismo debe tener los siguientes campos:
 
 - Nombre
 - Apellido
@@ -9,12 +7,17 @@ Crear un formulario con los campos.
 - Contraseña
 - Términos y condiciones de uso
 
-Todos `input` debe tener su correspondiente `label` y debe ser del tipo adecuado. A su vez todo `input` debe tener un `placeholder` que contenga un ejemplo del lo que se espera que se complete en dicho `input`. Por ejemplo, el `placeholder` para `email` puede ser `adalovelace@gmail.com`, por último cada input deberá tener un id con el mismo nombre del campo por ejemplo `id= "Nombre"`
+Cada input deberá tener:
+- su correspondiente `label` y debe ser del tipo adecuado;
+- un `placeholder` que con un ejemplo del lo que se espera que se complete en dicho `input`. Por ejemplo, el `placeholder` para `email` puede ser `adalovelace@gmail.com`;
+- un id con el mismo nombre del campo por ejemplo `id= "Nombre"`
 
-Para el input de DNI nos aseguraremos que solo puedan ingresar números. En esta oportunidad solo se podrán registrar un DNI Argentino por lo que su máximo será de 8 caracteres.
+:warning: Consideraciones:
 
-La contraseña debe ser mayor a 8 caracteres pero no puede exceder los 16.
-
-Se debe colocar un check para saber que el usuario acepta los términos de uso de el portal.
+- para el input de DNI nos aseguraremos que solo puedan ingresar números. En esta oportunidad solo se podrán registrar un DNI Argentino por lo que su máximo será de 8 caracteres.
+- la contraseña debe ser mayor a 8 caracteres pero no puede exceder los 16.
+- se debe colocar un check para aceptar los términos de uso de el portal.
 
 **No es necesario agregarles estilos**
+
+> Creá el código HTML que acabamos de describir.
