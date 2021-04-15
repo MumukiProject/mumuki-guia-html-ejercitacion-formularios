@@ -16,8 +16,13 @@ it("Hay un botón que dice pagar", () => {
 })
 
 it("El input del año de vencimiento no es mayor a diez años del año actual", () => {
-  document.querySelector()
+  document.querySelector("input")[3].max.should.eq("2031");
 })
+
+/*it("El campo Nombre es de tipo text", () => {
+  document.getElementById("Nombre").type.should.eq("text");
+})*/
+
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
