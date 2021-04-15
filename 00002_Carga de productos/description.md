@@ -2,23 +2,25 @@ Crearemos un formulario para la carga rápida de productos para una empresa de b
 
 - Título de producto (input de texto)
 - Marca (`select` con `options`):
-  - Klatter
-  - Top Mega
-  - Fierce
-  - Shimano
-  - Lamborghini
-  - Aurora
-  - GT
+  - _Klatter_
+  - _Top Mega_
+  - _Fierce_
+  - _Shimano_
+  - _Lamborghini_
+  - _Aurora_
+  - _GT_
 - Rodado (input numérico)
 - Categoría de producto (radio button):
-  - Mountain Bike
-  - Paseo
-  - Plegable
-  - Carrera
+  - _Mountain Bike_
+  - _Paseo_
+  - _Plegable_
+  - _Carrera_
 - Descripción del producto (`textarea`)
-- Botón que diga "Cargar" (de tipo `submit`)
+- Botón que diga _Cargar_ (de tipo `submit`)
 
-:warning: Considerá que tanto el `select` como los `radio` deben tener un id y el atributo `value` con el mismo valor que tienen en el texto. Por ejemplo `<input type="radio" name="categoria" value="Mountain Bike" id= "Mountain Bike"> Mountain Bike <br>`
+:warning: Considerá que tanto el `select` como los `radio` deben tener un id y el atributo `value` con el mismo valor que tienen en el texto. Por ejemplo, si tuviésemos un `radio` para seleccionar turnos se podría hacer:
+
+`<input type="radio" name="turno" value="Tarde" id= "Tarde"> Tarde`
 
 **No es necesario agregarles estilos**
 
