@@ -18,6 +18,6 @@ Crearemos un formulario para la carga rápida de productos para una empresa de b
 - Descripción del producto (`textarea`)
 - Botón que diga "Cargar" (de tipo `submit`)
 
-Tanto el `select` como los `radio` deben tener el atributo `value` con el mismo valor que tienen en el texto.
+Tanto el `select` como los `radio` deben tener un id y el atributo `value` con el mismo valor que tienen en el texto. Por ejemplo `<input type="radio" name="categoria" value="Mountain Bike" id= "Mountain Bike"> Mountain Bike <br>`
 
 **No es necesario agregarles estilos**
