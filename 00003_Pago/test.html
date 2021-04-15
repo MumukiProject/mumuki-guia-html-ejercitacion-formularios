@@ -19,9 +19,9 @@ it("El input del año de vencimiento no es mayor a diez años del año actual", 
   document.getElementById("anio").max.should.eq("2031");
 })
 
-/*it("El campo Nombre es de tipo text", () => {
-  document.getElementById("Nombre").type.should.eq("text");
-})*/
+it("El campo Nombre es de tipo text", () => {
+  document.getElementById("anio").type.should.eq("number");
+})
 
 /*#tests>*/
 /*<options#*/output_ignore_scripts: true
