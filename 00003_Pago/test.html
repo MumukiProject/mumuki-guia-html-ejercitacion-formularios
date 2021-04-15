@@ -4,11 +4,15 @@
 })
 
 it("El segundo campo dice Nombre completo del titular", () => {
-  document.getElementsByTagName("p")[1].should.have.trimmed.text("Nombre completo del titular");
+  document.getElementsByTagName("label")[1].should.have.trimmed.text("Nombre completo del titular");
+})
+
+it("El cuarto campo dice Año de vencimiento", () => {
+  document.getElementsByTagName("label")[3].should.have.trimmed.text("Año de vencimiento");
 })
 
 it("El quinto campo dice CCV", () => {
-  document.getElementsByTagName("p")[4].should.have.trimmed.text("CCV");
+  document.getElementsByTagName("label")[4].should.have.trimmed.text("CCV");
 })
 
 it("Hay un botón que dice pagar", () => {
