@@ -8,6 +8,7 @@ Necesitamos crear un formulario para el registro rápido del portal web de un cl
 - Términos y condiciones de uso
 
 Cada input deberá tener:
+
 - su correspondiente `label` y debe ser del tipo adecuado;
 - un `placeholder` que con un ejemplo del lo que se espera que se complete en dicho `input`. Por ejemplo, el `placeholder` para `email` puede ser `adalovelace@gmail.com`;
 - un id con el mismo nombre del campo por ejemplo `id= "Nombre"`
